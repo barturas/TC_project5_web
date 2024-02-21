@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Travel agency: Homepage</title>
+    <meta name="description" content="Travel agency: Paris">
+    <meta name="author" content="barturas">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="/css/header.css" rel="stylesheet" type="text/css">
+    <link href="/css/content.css" rel="stylesheet" type="text/css">
+    <link href="/css/footer.css" rel="stylesheet" type="text/css">
+    <link href="/css/normalize.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header id="header2">
+      <div id="topbar">
+        <div class="container-md wrap">
+          <form action="" method="get" class="input-group">
+            <img src="/icons/search-white.svg" alt="Search">
+            <input type="text" placeholder="Search" class="form-control" id="search-field">
+          </form>
+          <div id="logo">
+            <a href="index.html"><img src="/icons/globe-white.svg" alt="Logo"></a>
+          </div>
+          <div id="menu">
+            <nav class="d-none d-md-block">
+              <a href="">Destinations</a>
+              <a href="/contact.html" class="btn btn-light">Contact</a>
+            </nav>
+            <img class="menu-bars d-md-none" src="/icons/three-bars-white.svg" alt="Menu">
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="destinations">
+      <div class="container-md">
+        <div class="d-flex justify-content-between">
+          <h2 class="d-inline">Paris</h2>
+          <a href="/gallery.html" class="d-inline-block"><button type="button" class="btn btn-secondary">Back to Gallery</button></a>
+        </div>
+        <div class="paris">
+          <div class="description">
+            <p>
+              Paris, the City of Light, beckons with its unparalleled blend of history, art, gastronomy, and fashion. From the iconic Eiffel Tower to the historic avenues and the Seine River, Paris is a feast for the senses. Stroll along the Champs-Élysées, explore the masterpieces in the Louvre, and savor the culinary delights in its cafes and restaurants. Paris promises an unforgettable adventure in the heart of one of the world's most beloved cities.
+            </p>
+            <p>
+              Culture enthusiasts will revel in Paris's rich heritage, from the Gothic splendor of Notre-Dame to the artistic enclave of Montmartre, home to the Sacré-Cœur. Immerse yourself in the city's vibrant art scene at the Musée d'Orsay and the Centre Pompidou. Literary lovers can trace the footsteps of Hemingway and Fitzgerald through the Latin Quarter, exploring its historic bookshops and cozy cafes.
+            </p>
+            <p>
+              Paris also offers serene escapes within its many parks and gardens, such as the Tuileries Garden and Luxembourg Gardens, perfect for leisurely picnics or tranquil walks. For those seeking to indulge in shopping, the city's fashion boutiques, from the grandeur of Galeries Lafayette to the quaint shops in Le Marais, offer everything from haute couture to unique vintage finds.
+            </p>
+          </div>
+          <div id="book">
+            <div class="container-md wrap">
+
+              <form action="" method="post">
+                <div class="destinations-paris">
+                  <h3>
+                    Book now
+                  </h3>
+                </div>
+                <div class="from">
+                  <label for="">From</label>
+                  <input class="form-control" type="date" placeholder="From">
+                </div>
+                <div class="to">
+                  <label for="">To</label>
+                  <input class="form-control" type="date" placeholder="To">
+                </div>
+                <div class="guests">
+                  <label for="">Guests</label>
+                  <input class="form-control" type="number" name="" id="" value="2">
+                </div>
+                <div class="submit">
+                  <button class="btn btn-warning" type="submit">
+                    <img src="./icons/arrow-right.svg" alt="arrow">
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-md">
+        <div>
+          <h3>Links</h3>
+          <nav>
+            <a href="/index.html">Home</a>
+            <a href="/gallery.html">Destination</a>
+            <a href="">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Newsletter</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            euismod, nisl nec tincidunt dapibus, magna libero fermentum augu.
+          </p>
+          <form action="" class="input-group">
+            <input type="email" placeholder="Email" class="form-control">
+            <button class="btn btn-success" type="submit">
+              Subscribe
+              <img src="./icons/arrow-right-white.svg" alt="arrow">
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

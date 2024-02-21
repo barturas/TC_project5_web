@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+footer {
+    background-color: rgb(255, 193, 3);
+    padding: 60px 0;
+    nav {
+        a {
+            display: block;
+            color: black;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    footer > .container-md {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
